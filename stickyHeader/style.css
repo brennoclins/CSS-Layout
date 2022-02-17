@@ -1,0 +1,7 @@
+.header {
+  /* Stick to the top */
+  position: sticky;
+  top: 0;
+
+  background: linear-gradient(#2033e2bd , #858ff8a1);
+}
