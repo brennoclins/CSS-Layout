@@ -1,0 +1,74 @@
+/* section {
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+} */
+
+.container {
+  /* Used to position the stacked cards */
+  position: relative;
+
+  background-color: aqua;
+}
+
+.stacked_card {
+  /* Absolute position */
+  position: absolute;
+  left: 10vmax;
+  top: 10vmax;
+
+  /* Take full size */
+  height: 50vmin;
+  width: 50vmin;
+}
+
+.card1 {
+  /* Displayed under the container */
+  z-index: 100;
+
+  /* Background and border colors */
+  background-color: rgb(25, 202, 40);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+
+  /* Rotate it. Change the number of degrees for the following cards */
+  transform: rotate(5deg);
+}
+
+.card2 {
+  /* Displayed under the container */
+  z-index: 99;
+
+  /* Background and border colors */
+  background-color: rgb(202, 96, 25);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+
+  /* Rotate it. Change the number of degrees for the following cards */
+  transform: rotate(10deg);
+}
+
+.card3 {
+  /* Displayed under the container */
+  z-index: 98;
+
+  /* Background and border colors */
+  background-color: rgb(43, 25, 202);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+
+  /* Rotate it. Change the number of degrees for the following cards */
+  transform: rotate(15deg);
+}
+
+.card4 {
+  /* Displayed under the container */
+  z-index: 97;
+
+  /* Background and border colors */
+  background-color: rgb(202, 25, 164);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+
+  /* Rotate it. Change the number of degrees for the following cards */
+  transform: rotate(20deg);
+}
