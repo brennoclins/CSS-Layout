@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+}
+
+.container__half {
+  flex: 1;
+}
+
+img {
+  max-width: 50vmin;
+}
