@@ -26,3 +26,9 @@ Nesse projeto eu crio várias situações isoladas das partes que compõem um <s
 ![Time Line](./TimeLine.png)
 
 
+### Links
+
+[CSS Layout](https://csslayout.io/) esse é o site que serviu de base para esse projeto.
+[CSS - MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Web/CSS) Site muito bom para consultas ou para aprenser CSS
+[W3C - Cascading Style Sheets](https://www.w3.org/Style/CSS/#specs) Site da `W3C` comas especificações para o `CSS`
+[W3 Schools](https://www.w3schools.com/Css/) site muito legal com tutoriais para quem quer aprender CSS 
