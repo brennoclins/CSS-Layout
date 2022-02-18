@@ -1,0 +1,48 @@
+.container {
+  /* Used to position the left vertical line */
+  position: relative;
+
+  margin: 1rem;
+}
+
+.container__top {
+  /* Centralizar o conteudo na horizontal - Center the content horizontally */
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  /* Arredontando o circulo - Rounded border */
+  background-color: rgb(136, 180, 130);
+  border-radius: 9999px;
+
+  /* Tamanho do circulo - Size*/
+  height: 2rem;
+  width: 2rem;
+}
+.line {
+  /* Border */
+  border-right: 2px solid rgb(136, 180, 130);
+
+  /* Posicionando a esquerda */
+  left: 1rem;
+  position: absolute;
+  top: 1rem;
+
+  /* tamanho da linha, ocupa 100% o espaço do texto que fica ao lado  */
+  height: 100%;
+}
+
+.title {
+  /* Take available width */
+  flex: 1;
+  margin-left: 1vmin;
+
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.description {
+  /* Make it align with the title */
+  margin-left: 10vmin;
+}
