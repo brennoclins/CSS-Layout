@@ -1,5 +1,7 @@
 .container {
   display: flex;
+  
+  justify-content: center;
 }
 
 .container__half {
@@ -7,5 +9,5 @@
 }
 
 img {
-  max-width: 50vmin;
+  max-width: 100%;
 }
